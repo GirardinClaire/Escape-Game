@@ -5,7 +5,7 @@ Création d'un escape game géographique dans le cadre d'un projet web (ENSG gé
 
 Nous avons décidé de vous inviter dans notre premier voyage à vélo à travers la France pour découvrir une magnique région et des paysages méconnus.
 
-Pour nous aider, il vous suffit de suivre ce lien : https://girardinclaire.alwaysdata.net/EscapeGame/.
+Pour nous accompagner, il vous suffit de suivre ce lien : https://girardinclaire.alwaysdata.net/EscapeGame/.
 
 
 
