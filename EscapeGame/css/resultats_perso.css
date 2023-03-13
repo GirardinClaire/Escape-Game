@@ -1,0 +1,62 @@
+@import url(https://fonts.bunny.net/css?family=allura:400);
+
+#pages_result{
+    background-image: url("../img/resultats.jpg");
+    background-size: cover;
+}
+
+#entete{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: -8%;
+}
+
+/***********Titre page**********/
+#bilan {
+    font-family: allura;
+    font-size: 12vw;
+    text-shadow: 2px 2px 0vw #ffffff;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+/*****Explication résultats du joueur*****/
+#presentation{
+    text-align: center;
+    color: floralwhite;
+    background-color: rgba(22, 31, 29, 0.703);
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 7vh;
+    padding-left: 20px;
+    padding: 2vw;
+    border-radius: 5px;
+    border: 3px floralwhite solid;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 100%;
+    margin-bottom: 1%;
+}
+
+/***************style boutton***************/
+#resultats{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: calibri;
+    background-color: #ffffffba;
+    border-radius: 10px;
+    border: solid 3px #000000;
+    padding: 15px; 
+    float: right;
+    margin-right: 2vw;
+    margin-bottom: 3vh;
+}
+
+#resultats:hover {
+    background-color: rgba(22, 31, 29, 0.703);
+    border: solid 3px #ffffff;
+    color: #ffffff;
+  }

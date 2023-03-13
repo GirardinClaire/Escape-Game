@@ -1,0 +1,53 @@
+@import url(https://fonts.bunny.net/css?family=allura:400);
+
+#pages_result{
+    background-image: url("../img/resultats.jpg");
+    background-size: cover;
+}
+
+/*Resultats perso*/
+#bilan {
+    font-family: allura;
+    font-size: 8em;
+    text-align: center;
+}
+
+/*Classement*/
+#presentation{
+    text-align: center;
+    color: floralwhite;
+    background-color: rgba(22, 31, 29, 0.703);
+    height: 60vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-left: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 3px floralwhite solid;
+    font-family: calibri;
+}
+
+
+p{
+    font-weight: bold;
+    font-family: allura;
+    font-size: xx-large;
+}
+
+.table,th,td{
+    border:1px solid #cccccc;
+    padding: 10px;
+}
+
+#tab{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+#sortir{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
