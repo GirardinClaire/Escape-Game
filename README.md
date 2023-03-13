@@ -36,4 +36,4 @@ On pourrait créer différentes bases de données « jeu » associées à diff
 
 
 ### Contact
-Si vous avez un quelconque retour à faire sur ce jeu, vous pouvez nous joindre à l'adresse mail : claire-girardin@hotmail.fr.
+Si vous avez un quelconque retour à faire sur ce jeu, vous pouvez me joindre à l'adresse mail : claire-girardin@hotmail.fr.
