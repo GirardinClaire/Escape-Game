@@ -34,3 +34,6 @@ Pour faciliter le jeu, si possibilité de jouer à des niveaux de difficultés d
 - Il s’agit d’un TOUR DE FRANCE : région par région ?  
 On pourrait créer différentes bases de données « jeu » associées à différentes régions (jeu_Bretagne, jeu_Normandie …) et laisser la possibilité aux joueurs en début de partie de choisir à quel endroit il souhaite voyager.
 
+
+### Contact
+Si vous avez un quelconque retour à faire sur ce jeu, vous pouvez nous joindre à l'adresse mail : claire-girardin@hotmail.fr.
