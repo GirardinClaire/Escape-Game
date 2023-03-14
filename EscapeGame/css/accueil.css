@@ -1,0 +1,89 @@
+@import url(https://fonts.bunny.net/css?family=allura:400);
+
+/* Style pour la page d'accueil */
+#titre {
+    font-family: allura;
+    font-size: 5em;
+    text-align: center;
+}
+
+#menu{
+    margin-top: 3%;
+    background-image: url("../img/image_accueil.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+h1 {
+    font-family: calibri;
+    align-items: center;
+    margin: 0;
+  }
+#info{
+    color:  #f5d546;;
+}
+
+#presentation{
+    color: floralwhite;
+    background-color: rgb(65,100,90);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10vh;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: 1px floralwhite solid;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+/***************styles des bouttons***************/
+
+#resultats, #commencer{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: calibri;
+}
+
+#bouttons{
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  background-color: #f5d546;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 180%;/*taille flèche et texte*/
+  padding: 20px;
+  margin: 2vw;/*espace entre les boutons*/
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #86d4b5;
+}
+
+button:hover span {/*texte suit fleche*/
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+}

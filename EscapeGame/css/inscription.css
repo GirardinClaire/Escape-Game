@@ -1,0 +1,40 @@
+@import url(https://fonts.bunny.net/css?family=allura:400);
+
+#titre {
+    font-family: allura;
+    font-size: 5em;
+    text-align: center;
+}
+
+#identification{
+    background-image: url("../img/Champs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#inscription{
+    position: absolute;
+    background-color:  rgb(0, 0, 0);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: bold;
+    color: rgb(240, 248, 255);
+    border: 7px solid black;
+}
+
+#slogan{
+    position: absolute;
+    font-family: allura;
+    font-size: 3em;
+    top: 75%;
+    text-align: center;
+    right: 60px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+
+#sortir{
+    display: flex;
+    flex-direction: row-reverse;
+}

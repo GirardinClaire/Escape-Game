@@ -1,0 +1,81 @@
+@import url(https://fonts.bunny.net/css?family=allura:400);
+
+
+.body{
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#barre{
+    flex-basis: 100vw;
+    height: 7vh;
+    background: linear-gradient(to right,  rgb(65, 52, 108), rgb(173, 142, 107));
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: allura;
+    font-size: 2em;
+    font-weight: bold;
+    border-style: groove;
+    padding-top: 1vh;
+}
+#barre > p:last-child {
+    padding-top: 2vh;
+}
+
+
+
+#map {
+    height: 90vh;
+    flex-basis: 80vw;
+    z-index: 1;         
+}
+
+
+#sac{
+    position: absolute;
+    top: 13vh;
+    right: 4vw;
+    z-index: 3;
+}
+
+#inventaire{
+    position: absolute;
+    top: 25vh;
+    right: 2vw;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    border-style: inset;
+    height: 70vh;
+    width: 18vw;
+    z-index: 2;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+#obj{
+    overflow-y: auto;
+    align-items: center;
+    padding-top: 7vh;
+    display: flex;
+    flex-flow: column wrap;
+    grid-row-gap: 2vh; 
+}
+.indice{
+    text-align: justify;
+}
+
+
+
+
+
+
+/*@media (max-width: 600px) {
+    #barre{
+  }*/
+  
