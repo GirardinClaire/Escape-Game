@@ -2,7 +2,7 @@
 
 // include('connect.php');
 
-//$link = pg_connect("host=postgresql-girardinclaire.alwaysdata.net dbname=girardinclaire_bddescapegame user=girardinclaire password=wT5RySfX#JE");
+//$link = pg_connect("host=postgresql-girardinclaire.alwaysdata.net dbname=girardinclaire_bddescapegame user=girardinclaire password=***");
 $link = mysqli_connect("mysql-girardinclaire.alwaysdata.net", username, password, "girardinclaire_bddescapegame");
 
 if (!$link) {
